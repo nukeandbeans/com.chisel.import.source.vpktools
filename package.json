@@ -1,0 +1,12 @@
+{
+    "description": "Tools to handle the Valve Package Format used by the Source engine ",
+    "displayName": "Source VPK Tools",
+    "name": "com.chisel.import.source.vpktools",
+    "keywords": [
+        "Source", "VMF", "VPK", "Importer", "Utility"
+    ],
+    "unity": "2020.1",
+    "version": "1.0.0-preview",
+    "dependencies": {
+    }
+}
