@@ -1,0 +1,16 @@
+{
+    "name": "com.chisel.import.source.vpktools.editor",
+    "rootNamespace": "Chisel.Importers.Utility",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
