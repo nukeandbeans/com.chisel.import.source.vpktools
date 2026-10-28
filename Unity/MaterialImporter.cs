@@ -387,7 +387,11 @@ namespace Chisel.Import.Source.VPKTools
 			{
 				unityMaterial.EnableKeyword("_EMISSION");
 				unityMaterial.SetFloat("_EMISSION", 1);
+#if UNITY_6000_7_OR_NEWER
+				unityMaterial.globalIlluminationFlags = MaterialGlobalIlluminationFlags.RealtimeIndirectEmission | MaterialGlobalIlluminationFlags.BakedEmission;
+#else
 				unityMaterial.globalIlluminationFlags = MaterialGlobalIlluminationFlags.AnyEmissive;
+#endif
 			}
 			if (setDetailTextureOn)
 			{
